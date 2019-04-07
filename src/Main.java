@@ -1,22 +1,23 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
-import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
 public class Main {
 
     public static void main(String[] args) {
 
         List<String> words = Arrays.asList(
-                new String("hello");
-                new String("academy");
-                new String("java");
-                new String("junior");
+                new String("hello"),
+                new String("academy"),
+                new String("java"),
+                new String("junior")
         );
 
        words.stream()
-               .
+               .collect(Collectors.toSet())
+              // .size()
+               .forEach(System.out::println);
+
 
 
 
