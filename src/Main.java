@@ -11,7 +11,5 @@ public class Main {
         words.add("java");
         words.add("junior");
 
-
-
     }
 }
